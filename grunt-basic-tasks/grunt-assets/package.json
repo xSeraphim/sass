@@ -1,0 +1,26 @@
+{
+  "name": "grunt-starter",
+  "version": "1.0.0",
+  "description": "Basic grunt setup",
+  "main": "index.js",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "<Developer Name> from <company name>",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-concurrent": "^3.0.0",
+    "grunt-contrib-concat": "^2.0.0",
+    "grunt-contrib-jshint": "~3.1.1",
+    "grunt-contrib-uglify": "~5.0.1",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-dart-sass": "^2.0.1",
+    "sass": "^1.42.1"
+  },
+  "dependencies": {
+    "normalize-scss": "^7.0.1",
+    "compass-mixins": "^0.12.10"
+  }
+}
